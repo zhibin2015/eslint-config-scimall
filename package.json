@@ -1,8 +1,13 @@
 {
   "name": "eslint-config-scimall",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SciMall ESLint 规则",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-find-rules": "^3.4.0"
+  },
   "scripts": {
     "lint": "eslint .",
     "validate": "eslint-find-rules --unused ./index.js",
@@ -16,22 +21,17 @@
     "eslint",
     "eslintConfig",
     "eslint-config",
-    "eslint",
     "eslintrc",
     "javascript",
-    "scimall"
+    "scimall",
+    "eslint-config-scimall",
+    "scimall",
+    "styleguide"
   ],
   "author": "zhibin <zhibin_li@msn.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zhibin2015/eslint-config-scimall/issues"
   },
-  "homepage": "https://github.com/zhibin2015/eslint-config-scimall#readme",
-  "peerDependencies": {
-    "eslint": ">=6.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^6.2.2",
-    "eslint-find-rules": "^3.4.0"
-  }
+  "homepage": "https://github.com/zhibin2015/eslint-config-scimall#readme"
 }
