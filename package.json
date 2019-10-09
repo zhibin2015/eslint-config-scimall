@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-scimall",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "SciMall ESLint 规则",
   "main": "index.js",
   "dependencies": {
