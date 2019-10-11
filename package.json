@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-scimall",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "SciMall ESLint 规则",
   "main": "index.js",
   "dependencies": {
@@ -8,8 +8,7 @@
   },
   "devDependencies": {
     "eslint": "^6.5.1",
-    "eslint-find-rules": "^3.4.0",
-    "eslint-plugin-vue": "^5.2.3"
+    "eslint-find-rules": "^3.4.0"
   },
   "scripts": {
     "lint": "eslint .",
