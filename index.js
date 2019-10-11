@@ -11,8 +11,12 @@ module.exports = {
         "ecmaVersion": 6,
         "sourceType": "module",
         "ecmaFeatures": {
+            "globalReturn": false,
+            "impliedStrict": true,
             "jsx": true
-        }
+        },
+        "requireConfigFile": false,
+        "allowImportExportEverywhere": false
     },
     "extends": [
         './rules/possible-errors.js',
